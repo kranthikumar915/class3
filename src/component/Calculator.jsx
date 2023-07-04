@@ -3,6 +3,8 @@ import Button from './sub/Button'
 import Screen from './sub/Screen'
 import './calc.css'
 
+/* eslint no-eval: 0 */
+
 
 function Calculator(props) {
     const [inp,setInp] = useState('0')
